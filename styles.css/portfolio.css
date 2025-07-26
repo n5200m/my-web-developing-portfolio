@@ -1,0 +1,54 @@
+body {
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/*nav bar style start-------------------------------------------------*/
+nav {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.nav-tittle {
+
+    font-weight: 800;
+    font-size: 40px;
+    /*line-height: 61px;*/
+}
+
+nav>ul {
+    /*margin-left: 1000px;        eta chara aro ekta valo idea hocche justify content use kora*/
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+   
+}
+
+.r {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    height: 50px;
+    width: 120px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
+/*nav bar style end---------------------------------------------------------*/
