@@ -7,8 +7,9 @@ body {
 /*nav bar style start-------------------------------------------------*/
 nav {
     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .nav-tittle {
@@ -32,7 +33,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-   
+
 }
 
 .r {
@@ -51,4 +52,29 @@ nav li a {
     padding: 15px 15px;
 }
 
-/*nav bar style end---------------------------------------------------------*/
+/*header related style---------------------------------------------------------*/
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner-img {
+    width: 584px;
+    height: 676px;
+}
+
+.contact {
+    color: #FD6E0A;
+    height: 50px;
+    width: 120px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: none;
+    font-size: 20px;
+    text-align: center;
+}
