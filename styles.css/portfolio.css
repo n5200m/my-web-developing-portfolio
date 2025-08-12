@@ -83,3 +83,34 @@ nav li a {
     font-size: 20px;
     text-align: center;
 }
+
+/*About section design----------------------------------------------------*/
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.about{
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    
+ 
+    /*text-align: center;*/
+    
+   
+}
+.about-div{
+    padding: 131px 160px;
+    margin: 1px solid black;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-paragraph{
+    text-align: justify;
+    
+}
