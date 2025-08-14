@@ -95,17 +95,20 @@ main{
 .about{
     margin-top: 100px;
     background-color: #FFF8F3;
-    
- 
-    /*text-align: center;*/
-    
-   
-}
-.about-div{
     padding: 131px 160px;
-    margin: 1px solid black;
-}
-
+    border: 1px solid black;
+    /*text-align: center;*/
+    }
+    .about-info-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-description{
+        text-align: center;
+    }
+    .info-title{
+        text-align: center;
+    }
 .section-title{
     text-align: center;
 }
